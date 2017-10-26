@@ -10,7 +10,7 @@ Xgboost Version=0.6 [Reference Link](https://xgboost.readthedocs.io/en/latest/bu
 
 The install of python and packages (except Xgboost) can be quickly done by [Anaconda 5](https://www.anaconda.com/download/ "悬停显示")
 
-##Example
+## Example
 from BiXGBoost import *
 
 mainRun(expressionFile,samples,outputfile,p_lambda=0,p_alpha=1,maxlag=2,timelag=2)
