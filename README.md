@@ -8,5 +8,5 @@ Xgboost Version=0.6 [Reference Link](https://xgboost.readthedocs.io/en/latest/bu
     Pandas >= 0.19.x
     Numpy >=1.12.x
 
-    The install of python and packeage (except Xgboost) can be quickly done by [Anaconda 5](https://www.anaconda.com/download/ "悬停显示")
+The install of python and packeage (except Xgboost) can be quickly done by [Anaconda 5](https://www.anaconda.com/download/ "悬停显示")
 
