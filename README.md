@@ -8,5 +8,17 @@ Xgboost Version=0.6 [Reference Link](https://xgboost.readthedocs.io/en/latest/bu
     Pandas >= 0.19.x
     Numpy >=1.12.x
 
-The install of python and packeage (except Xgboost) can be quickly done by [Anaconda 5](https://www.anaconda.com/download/ "悬停显示")
+The install of python and packages (except Xgboost) can be quickly done by [Anaconda 5](https://www.anaconda.com/download/ "悬停显示")
+
+##Example
+from BiXGBoost import *
+
+mainRun(expressionFile,samples,outputfile,p_lambda=0,p_alpha=1,maxlag=2,timelag=2)
+### parameters
+    expressionFile: path of the expression file
+    samples: the number of samples in the expresssionFile on same time piont, such like 10 in DREAM4 InSilico_Size100
+    outputfile: path of output file
+    p_lambda & p_alpha: the L1 and L2 regularization parameters in XGBoost
+    timelag: the maximum lag of time point
+       
 
