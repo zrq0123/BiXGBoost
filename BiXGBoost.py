@@ -69,8 +69,8 @@ def compute_feature_importances(score_1,score_2,dicts_1,dicts_2):
 
     dict_all_1={}
     dict_all_2 = {}
-    score_1=score_1/sum(score_1)
-    score_2 = score_2 / sum(score_2)
+    score_1=1-score_1/sum(score_1)
+    score_2 =1-score_2 / sum(score_2)
     for i in range(len(score_1)):
         tmp_dict=dicts_1[i]
         for key in tmp_dict:
